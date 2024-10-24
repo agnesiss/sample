@@ -8,7 +8,6 @@ import Dashboard from "./Dashboard";
 function App() {
   return (
     <div className="app">
-      <p>this is a sample</p>
       <Router>
         <Routes>
           <Route exact path="/" element={<Login />} />
